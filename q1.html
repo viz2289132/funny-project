@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta lang="en-US">
+        <title>javscript task</title>
+        <style>
+            header{
+                width:80%;
+                height:2000px;
+                margin:0 auto;
+            }
+            div{
+                width:150px;
+                height:50px;
+                border:2px solid black;
+                float:left;
+                margin:50px;
+                text-align: center;
+                padding-top:15px;
+                box-sizing: border-box;
+            }
+            
+            div:hover{
+             box-shadow: 0px 0px 10px black;
+        
+            }
+        </style>
+        <script>
+        
+            
+            function one()
+            {
+                var a = document.getElementById("one");
+                a.innerHTML = "My";
+            }
+            
+            function two()
+            {
+                document.getElementById("two").innerHTML = "Name";
+            }
+            
+            function three()
+            {
+                document.getElementById("three").innerHTML = "is";
+            }
+            
+            function four()
+            {
+                var b = document.getElementById("four");
+                b.innerHTML = "Amit Kumar";
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+        <h1 align="center"> Click On the Box step By Step </h1>
+        <div id="one" onclick="one()"></div>
+        <div id="two" onclick="two()"></div>
+        <div id="three" onclick="three()"></div>
+        <div id="four" onclick="four()"></div>
+
+        </header>
+    </body>
+</html>
